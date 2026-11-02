@@ -33,25 +33,24 @@ Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
-# Scratch text dumps
+# Scratch & Dev tools
+scratch/
+src/tools/
 notebook_analysis.txt
 pdf_text_extracted.txt
 
-# Large model binaries / HF cache (if downloaded locally)
+# Large model binaries / checkpoints
 *.safetensors
 *.bin
 *.pt
 *.pth
-!results/*.png
 
-# Documents & Presentations (gardés en local, ignorés sur GitHub)
+# Large Datasets (data kept local)
+data/
+archive_sarcasme/
+
+# Presentation Slides, Reports & Word Documents
 *.pdf
 *.pptx
 *.ppt
 *.docx
-
-
-
-#comptes renud the insctructions pdf and the presenttaion should be ignored form github push
-*.pdf
-*.pptx

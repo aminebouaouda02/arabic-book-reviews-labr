@@ -1,1 +1,0 @@
-"""Reproductibilité des entraînements."""

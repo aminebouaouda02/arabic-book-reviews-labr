@@ -1,7 +1,0 @@
-modele,split,F1 sarcastique,PR-AUC,Macro-F1,seuil,partie
-E1 Fine-tuning AraBERT-twitter,validation,0.6417,0.6794,0.7725,0.20,E
-E1 Fine-tuning MARBERTv2,validation,0.6535,0.6480,0.7812,0.30,E
-E2 Multi-tache lambda=0.3,validation,0.5241,0.5162,0.7015,0.30,E
-E2 Multi-tache lambda=0.5,validation,0.5638,0.5833,0.7280,0.30,E
-E2 Multi-tache lambda=1.0,validation,0.5455,0.5259,0.7140,0.25,E
-

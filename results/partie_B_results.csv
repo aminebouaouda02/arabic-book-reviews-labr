@@ -1,6 +1,0 @@
-modele,split,F1 sarcastique,PR-AUC,Macro-F1,seuil,partie
-B1 Zero-shot NLI (Arabe),validation,0.3762,0.3650,0.5920,0.55,B
-B1 Zero-shot NLI (Français),validation,0.4110,0.3810,0.6150,0.85,B
-B1 Zero-shot NLI (Anglais),validation,0.3980,0.3720,0.6080,0.85,B
-B2 Heuristique Sentiment CAMeL-Lab,validation,0.4700,0.4200,0.6350,0.50,B
-

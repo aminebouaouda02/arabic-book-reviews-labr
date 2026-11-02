@@ -1,5 +1,0 @@
-modele,split,F1 sarcastique,PR-AUC,Macro-F1,seuil,partie
-C1 BiLSTM,validation,0.0,0.20621730861817228,0.44933920704845814,0.5,C
-C2 BiLSTM attention,validation,0.0,0.19351503447369942,0.44933920704845814,0.5,C
-C3 Transformer position,validation,0.0,0.2549227472177566,0.44933920704845814,0.5,C
-C3 Transformer sans position,validation,0.0,0.25905427578834206,0.44933920704845814,0.5,C

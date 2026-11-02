@@ -1,3 +1,0 @@
-modele,split,F1 sarcastique,PR-AUC,Macro-F1,seuil,partie
-D1 CLS + LogisticRegression,validation,0.5871559633027523,0.5545283054986935,0.736033224618128,0.5,D
-D1 moyenne masquée + LogisticRegression,validation,0.6180257510729614,0.6264408490353307,0.7509946226029736,0.5,D

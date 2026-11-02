@@ -1,0 +1,16 @@
+Famille,Modèle,Macro-F1,MAE,Paramètres,Latence (CPU)
+Baseline naïve,Toujours 5★ (Classe majoritaire),0.1092,1.1235,0,< 0.01 ms
+Raccourcis,Longueur < 10 => 5★,0.1442,0.8986,0,< 0.01 ms
+Raccourcis,Moyenne historique utilisateur,0.2209,0.8807,0,0.05 ms
+Modèle Linéaire,TF-IDF (1-2) + LR (balanced),0.4426,0.722,250 K,1.2 ms
+Zero-Shot NLI,mDeBERTa-v3 (Arabe),0.3513,0.998,278 M,180 ms
+Transfert Sentiment,CAMeL-Lab Sentiment P(pos)-P(neg),0.2879,1.233,110 M,65 ms
+Réseaux Profonds,C1 BiLSTM Standard,0.384,0.845,1.8 M,8.5 ms
+Réseaux Profonds,C2 BiLSTM + Attention,0.419,0.781,1.9 M,9.2 ms
+Réseaux Profonds,C2 + Perte pondérée,0.435,0.742,1.9 M,9.2 ms
+Réseaux Profonds,C3 Mini-Transformer (avec Pos),0.402,0.81,2.1 M,12.0 ms
+PLM Gelé,D1 AraBERTv02 [Mean] + LR,0.461,0.685,110 M (gelé),68 ms
+PLM Gelé,D2 AraBERTv02 + BiLSTM + Attention,0.478,0.652,112 M,75 ms
+PLM Fine-Tuning,E1 MARBERTv2 Fine-Tuned,0.485,0.635,110 M,65 ms
+PLM Fine-Tuning,E1 AraBERTv02 Fine-Tuned,0.512,0.598,110 M,65 ms
+Multi-Tâche (Champion),E2 AraBERT Multi-Tâche (Class+Reg),0.534,0.518,110 M,66 ms
