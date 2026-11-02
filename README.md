@@ -112,9 +112,8 @@ Tous les modèles ont été évalués de façon uniforme sur le jeu de test scel
 
 ### 1. Cloner le dépôt et installer l'environnement
 ```bash
-git clone https://github.com/aminebouaouda02/arabic-sarcasm-detection.git
-cd arabic-sarcasm-detection
-git checkout labr-groupe3
+git clone https://github.com/aminebouaouda02/arabic-book-reviews-labr.git
+cd arabic-book-reviews-labr
 
 # Créer un environnement virtuel
 python -m venv .venv
